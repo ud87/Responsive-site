@@ -1,0 +1,21 @@
+header {
+  border: 2px solid black;
+
+}
+
+
+.container {
+  width: 80%;          /*Sets the container width to 50% of its parent helps with responsiveness*/
+  max-width: 620px;
+  margin: 0 auto;      /*centers the container*/
+  border: 2px solid magenta;
+}
+
+
+img {
+  width: 50%;        /*Will be 50% of the container*/
+  display:block;     /*need to make this a block element first else it will not work*/
+  margin-left: auto;  /*helps to centre the image*/
+  margin-right: auto; /*helps to centre the image*/
+  border: 2px solid magenta;
+}

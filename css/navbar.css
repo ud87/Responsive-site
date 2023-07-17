@@ -1,0 +1,235 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  font-weight:300;
+  color: #707070;
+}
+
+
+/*Headers*/
+.side-bar h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125 rem;
+  font-weight: 700;
+  color: #143774;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #143774;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display:flex;
+
+}
+
+
+.heading {
+  margin-left:0;
+  margin-right: auto;
+}
+
+.title {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #143774;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #1792D2;
+  margin-top: 0;
+  /*border: 5px solid red;*/
+}
+
+nav {
+  margin-left:2em; /*centres a div*/
+}
+
+nav ul {
+  list-style-type: none;    /*removes dot from list*/
+  padding: 0;               /*removes the space occupied by dot so helps to make centered*/
+  display: flex;            /*makes the list element inline*/
+
+  gap: 1rem;                /*Increases the gap*/
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #717171;
+  margin-top: 20%;
+}
+
+nav a {
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: #1792D2;
+}
+
+.currentpage {
+  border-bottom: 1px solid black;
+}
+
+.currentpage:hover {
+  color: #707070;
+}
+
+
+.container2 {
+  width:80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  border:1px solid magenta;
+}
+
+.life {
+  max-width: 100%;
+  display: block;
+}
+
+.main-section {
+  width: 70%;
+  border:1px solid magenta;
+}
+
+.continue {
+  font-family:'Ubuntu', sans-serif;
+  font-size: 0.875rem;
+  color: #1792D2;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+
+img {
+  width:100%;
+  display:block;
+}
+
+.imgs {
+  width:40%;
+  height:50%;
+  padding-right: 5%;
+}
+
+.high-1 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.highlights {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom:5%;
+}
+
+.highlights h2 {
+  margin-top: 0;
+}
+
+.highlights p {
+  margin-bottom: 0;
+}
+
+/* .main-section {
+  display:flex;
+
+} */
+
+.high-2 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.high-3 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.high-4 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  width:25%;
+  min-width: 250px;
+  border:1px solid magenta;
+}
+
+.about-me {
+  padding: 5%;
+  text-align:center;
+  border: 20px solid #EBEBEB;
+}
+
+
+.recent-posts {
+  padding: 7%;
+  text-align:left;
+  border: 20px solid #EBEBEB;
+}
+
+.recent-posts p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  border: 1px solid magenta;
+  text-align: center;
+  padding: 1.5em 0;
+  background-color: #143774;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+
+@media (max-width:675px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container2 {
+    flex-direction:column;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+
+
+  .title {
+    text-align: center;
+  }
+
+  .subTitle {
+    text-align: center;
+  }
+  nav ul {
+    flex-direction:column;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+}
